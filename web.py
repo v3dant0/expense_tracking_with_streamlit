@@ -23,7 +23,8 @@ spend_location = [
     "Canteen",
     "College Bill",
     "Utilities",
-    "Shopping"
+    "Shopping",
+    "Swiggy/Zomato"
 ]
 
 
