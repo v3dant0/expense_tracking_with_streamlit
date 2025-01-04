@@ -54,7 +54,7 @@ elif spend_type == "Canteen":
 elif spend_type == "College Bill":
     bill_type = st.selectbox("Bill Type", options=["Mess + Electricity", "Semester fees"])
 elif spend_type == "Utilities":
-    utility_type = st.selectbox("What Utility", options=["Spotify"])
+    utility_type = st.selectbox("What Utility", options=["Spotify","Cycle"])
 elif spend_type == "Shopping":
     shopping_type = st.selectbox("Where did you shop?", options=["Amazon", "Other online platform", "Local shop"])
 
