@@ -25,7 +25,8 @@ spend_location = [
     "Utilities",
     "Shopping",
     "Swiggy/Zomato",
-    "Groceries"
+    "Groceries",
+    "Fruits"
 ]
 
 
