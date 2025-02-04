@@ -14,7 +14,8 @@ existing_data = conn.read(worksheet="Sheet1", usecols=list(range(11)), ttl=5)
 bank_account = [
     "Kotak Mahindra Bank",
     "State Bank of India",
-    "SBM Credelio Credit Card"
+    "SBM Credelio Credit Card",
+    "Cash"
 ]
 
 spend_location = [
@@ -55,7 +56,7 @@ elif spend_type == "Canteen":
 elif spend_type == "College Bill":
     bill_type = st.selectbox("Bill Type", options=["Mess + Electricity", "Semester fees"])
 elif spend_type == "Utilities":
-    utility_type = st.selectbox("What Utility", options=["Spotify","Cycle"])
+    utility_type = st.selectbox("What Utility", options=["Spotify","Cycle","Dhobi"])
 elif spend_type == "Shopping":
     shopping_type = st.selectbox("Where did you shop?", options=["Amazon", "Other online platform", "Local shop"])
 
